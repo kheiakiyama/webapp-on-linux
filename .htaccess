@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^home/(.*)$ ^home/dummy/(.*)$ [R=301,L]
