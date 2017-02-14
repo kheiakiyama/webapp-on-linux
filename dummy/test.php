@@ -1,3 +1,3 @@
 <?php
 
-echo('home/dummy/test.php');
+echo('dummy/test.php');
