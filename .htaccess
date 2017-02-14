@@ -3,6 +3,5 @@ RewriteBase /
 RewriteRule ^home/(.*)$ dummy/$1 [R=301,L]
 
 RewriteEngine On
-LogLevel alert rewrite:trace3
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
