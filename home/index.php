@@ -1,3 +1,3 @@
 <?php
 
-echo('home/test.php');
+echo('home/index.php');
